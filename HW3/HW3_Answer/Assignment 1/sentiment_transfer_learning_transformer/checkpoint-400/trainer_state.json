@@ -1,0 +1,46 @@
+{
+  "best_metric": 0.307338684797287,
+  "best_model_checkpoint": "./sentiment_transfer_learning_transformer/checkpoint-200",
+  "epoch": 2.0,
+  "global_step": 400,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "learning_rate": 1.5000000000000002e-05,
+      "loss": 0.3586,
+      "step": 200
+    },
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.925,
+      "eval_loss": 0.307338684797287,
+      "eval_runtime": 3.9509,
+      "eval_samples_per_second": 50.622,
+      "eval_steps_per_second": 12.655,
+      "step": 200
+    },
+    {
+      "epoch": 2.0,
+      "learning_rate": 1e-05,
+      "loss": 0.1619,
+      "step": 400
+    },
+    {
+      "epoch": 2.0,
+      "eval_accuracy": 0.935,
+      "eval_loss": 0.3178755044937134,
+      "eval_runtime": 3.6853,
+      "eval_samples_per_second": 54.27,
+      "eval_steps_per_second": 13.568,
+      "step": 400
+    }
+  ],
+  "max_steps": 800,
+  "num_train_epochs": 4,
+  "total_flos": 26311105536000.0,
+  "trial_name": null,
+  "trial_params": null
+}
