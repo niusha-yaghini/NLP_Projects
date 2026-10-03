@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# NLP Models
+*.pt
+*.bin
+*.npy
+*.model
+*.vectors
+
+# Model folders
+Models/
+**/checkpoint-*/
+
+# Archives
+*.zip
+*.gz
+
+# Text model files
+*.txt
+
+# OS
+.DS_Store
+
+# Environment
+.env
+venv/
